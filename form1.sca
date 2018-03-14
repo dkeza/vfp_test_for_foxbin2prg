@@ -25,6 +25,7 @@ DEFINE CLASS form1 AS form
 	*< OBJECTDATA: ObjPath="Label1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Command1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Check1" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Edit1" UniqueID="" Timestamp="" />
 
 	Caption = "Form1"
 	DoCreate = .T.
@@ -49,6 +50,14 @@ DEFINE CLASS form1 AS form
 		Width = 84
 		*< END OBJECT: BaseClass="commandbutton" />
 
+	ADD OBJECT 'Edit1' AS editbox WITH ;
+		Height = 72, ;
+		Left = 60, ;
+		Name = "Edit1", ;
+		Top = 132, ;
+		Width = 132
+		*< END OBJECT: BaseClass="editbox" />
+
 	ADD OBJECT 'Label1' AS label WITH ;
 		Caption = "Label1", ;
 		Height = 17, ;
@@ -66,6 +75,10 @@ DEFINE CLASS form1 AS form
 		Width = 100
 		*< END OBJECT: BaseClass="textbox" />
 	
+	PROCEDURE Activate
+		WAIT WINDOW "Hi" NOWAIT
+	ENDPROC
+
 	PROCEDURE Init
 		* Comment
 		* 123

@@ -53,7 +53,7 @@ _Interface = '{EA8F353C-F164-4413-8AD1-1480CCF18728}'
 *</ServerData>
 
 *<BuildProj>
-*<.HomeDir = 'd:\keza\code\develop\vfp\test2' />
+*<.HomeDir = 'd:\keza\code\develop\vfp\vfp_test_for_foxbin2prg' />
 
 FOR EACH loProject IN _VFP.Projects FOXOBJECT
 	loProject.Close()
