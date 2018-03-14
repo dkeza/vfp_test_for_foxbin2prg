@@ -1,1 +1,2 @@
+MESSAGEBOX("Test")
 ENDPROC

@@ -19,6 +19,7 @@ DEFINE CLASS newclass AS custom OLEPUBLIC
 
 	PROCEDURE Init
 		* Test
+		* New line
 	ENDPROC
 
 ENDDEFINE
