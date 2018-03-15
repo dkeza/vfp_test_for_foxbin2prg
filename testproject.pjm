@@ -11,7 +11,7 @@ CD ( EVL( tcDir, JUSTPATH( SYS(16) ) ) )
 
 *<DevInfo>
 _Author = "Unknown"
-_Company = ""
+_Company = "Some Company"
 _Address = ""
 _City = ""
 _State = ""
@@ -53,7 +53,7 @@ _Interface = '{EA8F353C-F164-4413-8AD1-1480CCF18728}'
 *</ServerData>
 
 *<BuildProj>
-*<.HomeDir = 'd:\keza\code\develop\vfp\vfp_test_for_foxbin2prg' />
+*<.HomeDir = 'd:\keza\code\develop\vfp\vfpgt4' />
 
 FOR EACH loProject IN _VFP.Projects FOXOBJECT
 	loProject.Close()
