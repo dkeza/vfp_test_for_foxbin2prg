@@ -53,7 +53,7 @@ _Interface = '{EA8F353C-F164-4413-8AD1-1480CCF18728}'
 *</ServerData>
 
 *<BuildProj>
-*<.HomeDir = 'd:\keza\code\develop\vfp\vfpgt4' />
+*<.HomeDir = 'd:\keza\code\develop\vfp\vfp_test_for_foxbin2prg' />
 
 FOR EACH loProject IN _VFP.Projects FOXOBJECT
 	loProject.Close()
@@ -77,6 +77,7 @@ WITH loProject.FILES
 	.ADD('newform.scx')		&& *< FileMetadata: Type="K" Cpid="1250" Timestamp="0" ID="0" ObjRev="544" User="" />
 	.ADD('start.bat')		&& *< FileMetadata: Type="T" Cpid="1250" Timestamp="0" ID="0" ObjRev="0" User="" />
 	.ADD('testproject.ini')		&& *< FileMetadata: Type="T" Cpid="1250" Timestamp="0" ID="0" ObjRev="0" User="" />
+	.ADD('xset.fxp')		&& *< FileMetadata: Type="P" Cpid="1250" Timestamp="0" ID="0" ObjRev="544" User="" />
 	*</BuildProj>
 
 	.ITEM('__newproject.f2b').Remove()
